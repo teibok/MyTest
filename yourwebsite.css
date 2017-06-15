@@ -1,0 +1,195 @@
+/* Notes  from media query for desktop remove the vomments from display none marked with "kk"*/
+* {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#bar{
+  display:inline-block;
+  float:right;
+  height:auto;
+  width:15%;
+  margin:2% 1%;
+
+}
+
+body {
+  background-color:#a80606;
+}
+
+.footernavbar {
+  display:none;
+  width:100%;
+  height:20rem;
+  margin-top:2rem;
+  background-color:#870606;
+}
+
+.footernavbar a {
+  color:black;
+  display: block;
+  height:3rem;
+  width:10rem;
+  margin-bottom:1rem;
+  background-color:#f25107;
+  text-align:center;
+  line-height:3rem;
+}
+
+.footernavbar a:hover {
+  color:#0b2ea3;
+  background-color:#dcdfe8;
+}
+
+.footernavbar img {
+  padding-right:25rem;/*Adjust this padding to right align the uppernavbar*/
+}
+
+.footernavbar > ul {
+  width:10rem;
+  height:auto;
+  display: block;
+  float:left;
+  font-size:1.25rem;
+  margin-right:3rem;
+  opacity:0.8;
+}
+
+h1 {
+  text-align: center;
+  padding-top:5%;
+  background-color: #a80606;
+}
+
+h3 {
+  text-align: center;
+  background-color: #a80606;
+  padding-bottom:5%;
+}
+
+#index {
+  background: url("background.jpg") no-repeat top center;
+  background-size:contain;
+}
+
+.intern {
+  font-size: 170%;
+  color: #50d3c6;
+  text-align: justify;
+  padding:0 5%;
+}
+
+.intern_inner{
+  font-size: 170%;
+  text-align: justify;
+  padding:0 5%;
+  background:url("https://images.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg?w=940&h=650&auto=compress&cs=tinysrgb") no-repeat center center;
+  background-size:cover;
+}
+
+.intern_inner a {
+  color:white;
+}
+
+#license {
+  color:teal;
+}
+
+#logo {
+  height:auto;
+  width:15%;
+  margin:0.2% 0;
+}
+
+#logoDesktop {
+  display:none;
+}
+
+#socialLinksDesktop {
+  display:none;
+}
+
+#sub_pitch {
+  font-size:1rem;
+  display:inline-block;
+  text-align:center;
+}
+
+#the_pitch {
+  font-size:200%;
+  display: block;
+  text-align:justify;
+  line-height:100%;/*remove this later pleae*/
+  height:60rem;
+  width:auto;
+  padding:10% 5%
+}
+
+.uppernavbar {
+  width:100%;
+  height:45px;
+  display:none;
+}
+
+.uppernavbar a {
+  color:#7cf4e8;
+  display:inline-table;
+  height:50px;
+  text-align:center;
+  line-height:50px;
+}
+.uppernavbar > ul {
+  display: inline-block;
+  float:left;
+  font-size:150%;
+  width:100%;
+  text-align: center;
+  background-color:rgb(0,0,0);
+  opacity:0.8;
+}
+
+.uppernavbar ul li ul li {
+  display:none;
+}
+
+.uppernavbar li:hover {
+  background-color:#8c0202;
+}
+
+.uppernavbar li:hover ul li{
+  display: block;
+}
+
+.uppernavbar ul li ul li:hover {
+  background-color:#38ba2c;
+}
+
+@media only screen and (min-device-width:768px)/*beginning of media query for desktop*/
+{
+/*kk
+  .footernavbar {
+    display:block;
+  }
+
+  #logoDesktop {
+    display:block;
+  }
+
+  #navbarMobile {
+    display:none;
+  }
+
+  #socialLinksDesktop {
+    display:block;
+  }
+
+  #socialLinksMobile {
+    display:none;
+  }
+/*for desktop*/
+}
