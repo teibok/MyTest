@@ -123,12 +123,12 @@ body {
 
 #socialLinksMobile {
   display:block;
-  width:48%;
+  width:70%;
   margin:0 auto;
 }
 
 #socialLinksMobile > a{
-  padding:3% 3%;
+  padding:3% 4%;
 }
 
 #sub_pitch {
@@ -206,7 +206,7 @@ body {
   text-align: center;
   background-color: #a80606;
   padding-bottom:5%;
-}
+}k
 
 .wnpitch {
   display: block;
