@@ -220,13 +220,14 @@ body {
 
 @media only screen and (min-device-width:768px)/*beginning of media query for desktop*/
 {
-/*kk
   .footernavbar {
     display:block;
   }
 
   #logoDesktop {
     display:block;
+    padding-right:26rem;
+    height:2.85rem;
   }
 
   #navbarMobile {
@@ -235,10 +236,80 @@ body {
 
   #socialLinksDesktop {
     display:block;
+    width:100%;
+    height:auto;
+    background-color:teal;
+    text-align: center;
+  }
+
+  #socialLinksDesktop > a{
+    display:inline-block;
+    padding-right:2rem;
+    margin:0 auto;
   }
 
   #socialLinksMobile {
     display:none;
+  }
+
+  #index {
+    background: url("photo.jpg") no-repeat center center;
+    background-size:contain;
+  }
+
+  .intern {
+    font-size: 170%;
+    color: #50d3c6;
+  }
+
+  .intern_inner{
+    font-size: 170%;
+    text-align: justify;
+    padding:0 5%;
+  }
+
+  #logo {
+    height:2.5rem;
+    width:2.5rem;
+    margin:0.25rem;
+  }
+
+  #the_pitch {
+    font-size:3rem;
+    display: block;
+    text-align:center;
+    line-height:100%;/*remove this later pleae*/
+    height:60rem;
+    width:auto;
+    color:black;
+  }
+
+  #sub_pitch {
+    color:black;
+  }
+
+  .uppernavbar {
+    height:3rem;
+    width:auto;
+    display:block;
+  }
+
+  .uppernavbar a {
+    color:#7cf4e8;
+    display: block;
+    width:10rem;
+    height:3rem;
+    line-height:3rem;
+    margin-bottom:0.5rem;
+    padding:0.5 1rem 1rem 1rem;
+  }
+
+  .uppernavbar > ul {
+    display: block;
+    font-size:1.25rem;
+    height:3rem;
+    width:inherit;
+    margin-right:0.2rem;
   }
 /*for desktop*/
 }
